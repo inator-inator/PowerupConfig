@@ -188,8 +188,8 @@ bluePillEnabled = true
 
 ## Linear scaling for item.
 # Setting type: Single
-# Default value: 10
-bluePillShieldLinearScaling = 10
+# Default value: 40
+bluePillShieldLinearScaling = 40
 
 ## Base value for item
 # Setting type: Single
@@ -255,8 +255,8 @@ broccoliEnabled = true
 
 ## Linear scaling for item.
 # Setting type: Single
-# Default value: 0.05
-broccoliLinearScaling = 0.05
+# Default value: 0.1
+broccoliLinearScaling = 0.1
 
 ## Base value for item
 # Setting type: Single
@@ -271,7 +271,7 @@ broccoliExtraLinearScaling = 1
 ## Should item be capped
 # Setting type: Boolean
 # Default value: false
-broccoliDoCap = false
+broccoliDoCap = true
 
 ## Cumulative distribution scaling for item.
 # Setting type: Single
@@ -288,7 +288,7 @@ broccoliCDMax = 2
 ## Should this item be enabled?
 # Setting type: Boolean
 # Default value: true
-bulldozerEnabled = true
+bulldozerEnabled = false
 
 ## Linear scaling for item.
 # Setting type: Single
@@ -433,8 +433,8 @@ danisMilkEnabled = true
 
 ## Linear scaling for item.
 # Setting type: Single
-# Default value: 3
-danisMilkLinearScaling = 3
+# Default value: 6
+danisMilkLinearScaling = 6
 
 ## Base value for item
 # Setting type: Single
@@ -537,13 +537,13 @@ dumbbellEnabled = true
 
 ## Linear scaling for item.
 # Setting type: Single
-# Default value: 0.1
-dumbbellLinearScaling = 0.1
+# Default value: 0.5
+dumbbellLinearScaling = 0.5
 
 ## Base value for item
 # Setting type: Single
 # Default value: 1
-dumbbellBaseValue = 1
+dumbbellBaseValue = 5
 
 ## Extra linear scaling for item
 # Setting type: Single
@@ -644,7 +644,7 @@ horseshoeCDMax = 0.9
 ## Should this item be enabled?
 # Setting type: Boolean
 # Default value: true
-janniksFrogEnabled = true
+janniksFrogEnabled = false
 
 ## Linear scaling for item.
 # Setting type: Single
@@ -701,7 +701,7 @@ jetpackExtraLinearScaling = 1
 ## Should item be capped
 # Setting type: Boolean
 # Default value: true
-jetpackDoCap = false
+jetpackDoCap = true
 
 ## Cumulative distribution scaling for item.
 # Setting type: Single
@@ -710,8 +710,8 @@ jetpackCDScaling = 0.075
 
 ## Cumulative distribution max for item.
 # Setting type: Single
-# Default value: 2.5
-jetpackCDMax = 2.5
+# Default value: 2
+jetpackCDMax = 2
 
 [powerups/juice]
 
@@ -722,13 +722,13 @@ juiceEnabled = true
 
 ## Linear scaling for item.
 # Setting type: Single
-# Default value: 0.2
-juiceAttackSpeedLinearScaling = 0.2
+# Default value: 0.4
+juiceAttackSpeedLinearScaling = 0.4
 
 ## Base value for item
 # Setting type: Single
-# Default value: 1
-juiceAttackSpeedBaseValue = 1
+# Default value: 2
+juiceAttackSpeedBaseValue = 
 
 ## Extra linear scaling for item
 # Setting type: Single
